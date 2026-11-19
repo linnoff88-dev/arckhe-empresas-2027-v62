@@ -1,0 +1,163 @@
+<section class="view" id="v-aula-5" data-aula="5" data-tempo="15min">
+<div class="aula">
+<header class="a-hero">
+  <p class="kicker">Aula 5 de 9</p>
+  <h1>A constituição do <em>seu agente</em></h1>
+  <figure class="cena"><img src="assets/img/aula-5.webp" width="1280" height="720" alt="Uma supervisora de atendimento digita no notebook uma página de orientações, com post-its colados na borda da tela."></figure>
+  <p class="promise">Você consegue escrever a primeira página da constituição de um agente seu, com os seis campos, e testá-la no chat com duas situações.</p>
+  <p class="why">Uma lista de ordens funciona até o primeiro caso que ninguém previu. Aí o agente chuta. Uma página com o que importa mais e quando chamar alguém diminui o chute.</p>
+  <div class="em1min">
+    <p class="k">Em 1 minuto</p>
+    <ol>
+      <li>Não copie a constituição do Claude. Faça uma página prática, da sua operação.</li>
+      <li>Seis campos: missão, princípios, prioridades, limites, quando passar para uma pessoa e exemplos difíceis.</li>
+      <li>Teste colando a página no chat e mandando duas situações: uma comum e uma difícil.</li>
+    </ol>
+  </div>
+</header>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">1</span>Inspirar-se, não copiar</h2>
+  <p>A <span class="gterm" data-def="o documento que diz para que alguém existe ali, o que importa mais, o que nunca faz e quando deve chamar uma pessoa. A Anthropic escreveu uma para o Claude; você escreve uma para o seu agente.">constituição</span> do Claude, que você viu na aula 3, é longa e serve a um modelo usado no mundo todo. O seu <span class="gterm" data-def="um programa de IA que recebe uma função e executa tarefas sozinho, com ferramentas, dentro de limites. Ex.: o que responde dúvidas de pedido no site.">agente</span> tem um trabalho só. Pulou a aula 3? Tudo bem: basta saber que ela explica os porquês, não só as ordens.</p>
+  <figure class="largo">
+    <div class="lado">
+      <div class="neutro"><span class="rot">A do Claude</span><p>Escrita pela Anthropic, para um modelo de uso geral.</p><p>Usada no treinamento: entrou no modelo por dentro.</p></div>
+      <div class="bom"><span class="rot">A do seu agente</span><p>Uma página, sobre uma operação real.</p><p>Colada nas instruções: o agente lê a cada conversa.</p></div>
+    </div>
+    <figcaption>O cartão <b>A do seu agente</b> não muda o modelo por dentro. Por isso ela precisa ser testada e corrigida sempre.</figcaption>
+  </figure>
+  <p data-ex="supervisora de atendimento">A Lívia supervisiona 14 atendentes numa distribuidora de autopeças. O agente dela responde dúvidas de pedido no site. Ela começou pela página, não pelo programa.</p>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">2</span>Os seis campos de uma página</h2>
+  <p>Cada campo responde a uma pergunta que um funcionário novo faria no primeiro dia. Veja a página da Lívia, campo a campo.</p>
+  <figure class="largo">
+    <div class="janela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Constituição · agente de dúvidas de pedido</span></div>
+      <div class="janela-body">
+        <div class="item doc"><span class="pin">1</span> Missão: o cliente sabe onde está o pedido e o que fazer, sem precisar ligar.</div>
+        <div class="item doc"><span class="pin">2</span> Princípios: diga só o que está no sistema de pedidos. Se não sabe, diga que não sabe.</div>
+        <div class="item doc"><span class="pin">3</span> Prioridades: 1) não mostrar dado de um cliente a outro; 2) informação certa; 3) resposta rápida.</div>
+        <div class="item doc"><span class="pin">4</span> Limites: nunca cancela pedido, nunca dá desconto, nunca promete data que o sistema não mostra.</div>
+        <div class="item doc"><span class="pin">5</span> Quando escalar: atraso de mais de 3 dias úteis, peça faltando, dúvida se a peça serve no carro.</div>
+        <div class="item doc"><span class="pin">6</span> Exemplos difíceis: "a pastilha serve no meu carro?" — não responde; passa à atendente com o código da peça.</div>
+      </div>
+    </div>
+    <ol class="passos">
+      <li><span class="pin">1</span><span>A missão diz para que o agente existe, não o que ele faz em cada clique.</span></li>
+      <li><span class="pin">3</span><span>A ordem decide as brigas: certo vence rápido.</span></li>
+      <li><span class="pin">5</span><span>Escalar: situações que vão direto para uma pessoa.</span></li>
+    </ol>
+  </figure>
+  <p><span class="gterm" data-def="passar a decisão para uma pessoa, em vez de o agente decidir sozinho.">Escalar</span> é passar a decisão para uma pessoa. A aula 6 aprofunda esse campo; aqui basta uma lista curta.</p>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">3</span>Prioridades: o que vence quando duas coisas brigam</h2>
+  <p>Regras soltas parecem todas iguais. Na vida real, duas brigam: ser rápido e ser certo, agradar o cliente e seguir a tabela. A ordem das prioridades decide antes da briga acontecer.</p>
+  <figure class="largo">
+    <div class="lado">
+      <div class="antes"><span class="rot">Sem ordem</span><p><b>Pedido do cliente:</b> "Cota rápido, preciso agora."</p><p><b>Agente:</b> manda um preço estimado, sem a tabela. Errou o valor em 15%.</p></div>
+      <div class="depois"><span class="rot">Com ordem</span><p><b>Regra:</b> preço certo vem antes de rapidez.</p><p><b>Agente:</b> pede o peso que faltava e cota pela tabela, dois minutos depois.</p></div>
+    </div>
+    <figcaption>No cartão <b>Com ordem</b>, o agente demora um pouco mais e não manda preço errado.</figcaption>
+  </figure>
+  <p data-ex="gerente de operações">O Wagner gerencia 60 motoristas numa transportadora. O agente de cotação dele tinha "seja rápido" e "use a tabela" no mesmo nível. Depois que ele pôs a tabela em primeiro, os preços errados pararam de sair.</p>
+  <div class="calma"><p><span class="k">Se travou aqui, é normal</span>Escolher o que vem primeiro dá aflição, porque tudo parece importante. Faça só uma pergunta: "se eu tivesse de abrir mão de uma, qual seria?". A outra fica em cima.</p></div>
+  <div class="quiz" data-answer="a">
+    <p class="qk">Teste-se</p>
+    <p class="q">O cliente pede ao agente de pedidos um desconto pela demora. Qual campo da página resolve isso?</p>
+    <button class="opt" data-k="a" data-fb="Isso. O limite diz que o agente nunca dá desconto; e a lista de escalar manda o caso a uma pessoa.">Os limites</button>
+    <button class="opt" data-k="b" data-fb="A missão diz para que o agente existe, mas não diz o que ele nunca pode fazer.">A missão</button>
+    <button class="opt" data-k="c" data-fb="Os princípios dizem como ele responde. A proibição de dar desconto fica em outro campo.">Os princípios</button>
+    <p class="qfb" aria-live="polite"></p>
+  </div>
+</section>
+
+<section class="step" data-kind="fundamento">
+  <h2><span class="n">4</span>Testar no chat, com duas situações</h2>
+  <p>Você não precisa de um agente pronto para testar a página. Cole a página no chat de IA que já usa e peça que ele faça o papel do agente. Depois mande uma situação comum e uma difícil.</p>
+  <figure class="largo">
+    <div class="tela">
+      <div class="tela-top"><i></i><i></i><i></i><span>Chat de IA</span></div>
+      <div class="tela-caso" data-rotulo="Situação comum">
+        <div class="tela-body">
+          <p class="msg eu"><span class="quem">Você</span>(página colada acima) Responda como o agente. No sistema, o pedido 4521 está "separado, sai para entrega em até 2 dias úteis". Cliente: "Cadê meu pedido?"</p>
+          <p class="msg ia ok"><span class="quem">IA</span>Seu pedido 4521 já está separado e sai para entrega em até 2 dias úteis. Se passar desse prazo, me avise que eu chamo uma atendente.</p>
+        </div>
+        <p class="tela-nota bom">A resposta usa só o que está no sistema. Não inventa data.</p>
+      </div>
+      <div class="tela-caso" data-rotulo="Situação difícil">
+        <div class="tela-body">
+          <p class="msg eu"><span class="quem">Você</span>Cliente: "O pedido 4521 chegou faltando uma peça. Quero desconto."</p>
+          <p class="msg ia ok"><span class="quem">IA</span>Sinto muito pela peça faltando. Não posso dar desconto por aqui. Vou passar seu caso agora para uma atendente, com o número do pedido, para ela resolver com você.</p>
+        </div>
+        <p class="tela-nota bom">Dois campos funcionando juntos: o limite (desconto) e quando escalar (peça faltando).</p>
+      </div>
+    </div>
+    <figcaption><b>Toque nos dois botões</b> e compare as duas situações.</figcaption>
+  </figure>
+  <p>Se o chat inventar uma data ou der o desconto, o defeito está na página. Corrija o campo e mande a mesma situação de novo.</p>
+</section>
+
+<section class="practice" data-mode="prompt">
+  <p class="pk">Pratique agora <span class="pcount">0/3</span></p>
+  <h3 class="ph">A primeira página da constituição do seu agente</h3>
+  <p class="pgoal">Pronto quando você tiver uma página com os seis campos e duas situações testadas no chat. Cerca de 10 minutos, no celular ou no computador.</p>
+  <p class="psafe">É um ensaio no chat: nenhum cliente vê nada. Não cole nomes nem dados reais de clientes; invente o número do pedido. Se a resposta sair estranha, corrija um campo por vez.</p>
+  <div class="pcodewrap"><button class="pcopy" type="button">copiar</button><pre class="pcode">Quero escrever a primeira página da constituição de um agente de IA.
+O agente vai: &lt;a função, numa frase&gt;. Eu sou &lt;sua função&gt;.
+Faça-me uma pergunta por vez para preencher seis campos: missão, princípios, prioridades em ordem, limites, quando passar para uma pessoa, e dois exemplos de decisões difíceis.
+No fim, escreva a página com até 250 palavras, em frases curtas.</pre></div>
+  <details class="mais"><summary>Veja o pedido de teste e o exemplo do gerente de operações</summary>
+    <p><b>Para testar, mande no chat:</b> "A partir de agora, responda como o agente descrito nesta página: (cole a página). Situação: &lt;uma situação comum&gt;." Depois mande uma segunda, difícil.</p>
+    <p><b>Wagner, agente de cotação:</b> missão: o cliente recebe o preço certo do frete sem esperar um vendedor. Prioridades: 1) preço da tabela; 2) aviso de atraso no mesmo dia; 3) rapidez. Limites: nunca dá desconto, nunca aceita carga perigosa. Escalar: carga acima de 10 toneladas, cliente reclamando de atraso pela segunda vez. Situação difícil testada: "faz por menos que eu fecho hoje".</p>
+  </details>
+  <ol class="psteps">
+    <li><label><input type="checkbox" data-ptask="1"> <span>Copie o pedido, troque o que está entre &lt; &gt; e responda às perguntas do chat até sair a página.</span></label></li>
+    <li><label><input type="checkbox" data-ptask="2"> <span>Abra uma conversa nova no mesmo chat, cole a página e mande uma situação comum. Confira se a resposta segue a página.</span></label></li>
+    <li><label><input type="checkbox" data-ptask="3"> <span>Mande uma situação difícil, que deveria ir para uma pessoa. Se o agente decidir sozinho, corrija a página.</span></label></li>
+  </ol>
+  <details class="gabarito"><summary>Como saber se ficou bom</summary><p>As prioridades estão numeradas, não numa lista solta. Há pelo menos um "nunca" nos limites. Na situação difícil, o agente passa o caso para uma pessoa em vez de resolver sozinho. Nenhuma resposta inventa data, preço ou prazo.</p></details>
+  <p class="pdone">Você acabou de escrever e testar a página que orienta um agente quando ninguém está olhando.</p>
+</section>
+
+<div class="fecho">
+  <div class="cola">
+    <p class="k">Cola da aula</p>
+    <h3>Uma página, seis campos</h3>
+    <ol>
+      <li><span><b>Para quê e como</b>missão e princípios.</span></li>
+      <li><span><b>O que vence</b>prioridades numeradas e limites com "nunca".</span></li>
+      <li><span><b>Quando chamar</b>a lista de escalar e dois exemplos difíceis.</span></li>
+    </ol>
+  </div>
+  <div class="next-action">
+    <p class="nak">Seu próximo passo</p>
+    <p class="na-win">Você já sabe escrever e testar a constituição de um agente.</p>
+    <p class="na-action">Esta semana, mostre a página a quem faz esse trabalho hoje. Peça uma situação difícil que já aconteceu e teste no chat.</p>
+    <p class="na-hook">Na próxima aula: quando o agente decide sozinho e quando ele chama você? Vamos separar situações em verde, amarelo e vermelho.</p>
+  </div>
+</div>
+<details class="complementar">
+  <summary>Material complementar<small>Aprofundamento do tópico. Não conta no tempo da aula.</small></summary>
+  <section class="comp-sec"><h3>Uma constituição prática para os agentes da empresa</h3>
+    <p>A aplicação prática é uma constituição organizacional para os agentes: missão, princípios, prioridades, limites, critérios para escalar e exemplos de decisões difíceis.</p>
+    <p>Eu não copiaria diretamente a constituição do Claude para uma empresa. Usaria suas ideias para desenvolver uma versão muito mais prática, adaptada à operação real, com responsabilidades, limites, métricas e critérios objetivos.</p>
+    <p>Há uma diferença técnica fundamental entre entregar um documento a um agente e usar esse documento no treinamento de um modelo. Em um agente criado por uma empresa, documentos semelhantes atuam no contexto, nas instruções, na avaliação e no feedback, mas não modificam automaticamente o modelo. A ambição, porém, é parecida: não definir só o que fazer, mas desenvolver critérios para decidir como agir.</p>
+    <p>Um texto inspirador, por si só, não garante agentes confiáveis. É preciso medir se as revisões melhoram o comportamento, com casos de teste e registro de falhas.</p>
+    <p class="comp-fontes">Fontes: texto do Nei Maldaner (08/10/2026), seções 3, 6 e 8 · <a href="https://www.anthropic.com/news/claude-new-constitution">Anthropic, a nova constituição do Claude (22/01/2026)</a></p>
+  </section>
+</details>
+<nav class="lnav"><a href="#trilha">← trilha</a><a class="next" href="#aula-6">próxima aula →</a></nav>
+<p class="aula-pe">Aula 5 · Empresas de 2027 v6.2 · INEMA.CLUB PRO</p>
+</div>
+<script type="application/json" id="cards-5">
+[
+  {"front":"Seu agente respondeu rápido, mas com um prazo que não estava no sistema. Qual campo da página você revisa primeiro?","back":"As prioridades: informação certa precisa vir antes de rapidez. Depois, confira se os limites proíbem prometer data que o sistema não mostra."},
+  {"front":"Por que colar a constituição nas instruções não é o mesmo que a Anthropic fez com o Claude?","back":"A do Claude entrou no treinamento do modelo. A sua fica nas instruções que o agente lê, por isso precisa de teste e correção constantes."},
+  {"front":"Você testou a página com uma situação comum e deu tudo certo. Isso basta?","back":"Não. Falta uma situação difícil, que deveria ir para uma pessoa. É nela que se vê se os limites e a lista de escalar funcionam."}
+]
+</script>
+</section>
