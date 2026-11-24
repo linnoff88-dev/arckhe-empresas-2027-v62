@@ -9,7 +9,7 @@ Curso: `~/projetos/empresas-2027-v62` (formato-curso-v6, edição 6.2, `"glossar
 4. `aulas/aula-1.html` — **aula-modelo aprovada (10/10)**: copie a estrutura, o tom, o tamanho e o padrão do `details.complementar` (trecho da fonte daquele tema, enxugado, com fontes em `.comp-fontes`).
 
 ## Regras deste curso
-- `<section class="view" id="v-aula-N" data-aula="N" data-tempo="NNmin">`; kicker "Aula N de 9"; rodapé `<p class="aula-pe">Aula N · Empresas de 2027 v6.2 · INEMA.CLUB PRO</p>`; nav `← trilha` / `próxima aula →` (#aula-N+1; na aula 9 o próximo é `#trilha` com texto "voltar à trilha →").
+- `<section class="view" id="v-aula-N" data-aula="N" data-tempo="NNmin">`; kicker "Aula N de 9"; rodapé `<p class="aula-pe">Aula N · Empresas de 2027 v6.2 · ARCKHÉ AI PRO</p>`; nav `← trilha` / `próxima aula →` (#aula-N+1; na aula 9 o próximo é `#trilha` com texto "voltar à trilha →").
 - Cena: `<figure class="cena"><img src="assets/img/aula-N.webp" width="1280" height="720" alt="…">` — a imagem já está sendo gerada com esta situação (use um alt coerente):
   - aula-2: Wagner conversa de pé com dois motoristas no pátio da transportadora, ouvindo.
   - aula-3: Lívia escreve à mão regras da equipe numa folha, com café ao lado.
