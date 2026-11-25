@@ -4,15 +4,15 @@
   "titulo_html": "Gerir pessoas <em>e agentes</em>",
   "curso_curto": "Empresas de 2027 v6.2",
   "kicker": "Empresas de 2027 v6.2 · 3 módulos · 9 aulas de uns 15 minutos",
-  "lead": "Começa pelo que a Anthropic faz com as pessoas e com a própria IA, e chega ao que as empresas de sucesso vão fazer em 2027. Em cada aula você faz uma peça da gestão de pessoas, processos e agentes da sua área, no chat de IA que já usa.",
+  "lead": "Começa pelo que a Anthropic faz com as pessoas e com a própria IA, e chega ao que as empresas de sucesso vêo fazer em 2027. Em cada aula você faz uma peça da gestêo de pessoas, processos e agentes da sua área, no chat de IA que já usa.",
   "imagem_trilha": "assets/img/trilha.webp",
-  "alt_trilha": "Uma supervisora de atendimento e um gerente de operações conversam numa sala de reunião diante de um quadro com três colunas desenhadas a caneta.",
+  "alt_trilha": "Uma supervisora de atendimento e um gerente de operações conversam numa sala de reuniêo diante de um quadro com três colunas desenhadas a caneta.",
   "rodape": "Empresas de 2027 v6.2 · ARCKHÉ AI PRO · <a href=\"landing.html\">sobre o curso</a>",
   "landing": "landing.html",
   "glossario": true,
   "modulos": [
-    {"titulo": "Módulo 1 · O caso Anthropic", "resumo": "Os números da disputa por talentos, o que prende gente boa e a constituição que a Anthropic escreveu para o Claude.", "aulas": [1, 2, 3]},
-    {"titulo": "Módulo 2 · Gerenciar agentes como se gerencia gente", "resumo": "O mapa pessoas × agentes, a constituição do seu agente e a regra de quando ele pede ajuda.", "aulas": [4, 5, 6]},
+    {"titulo": "Módulo 1 · O caso Anthropic", "resumo": "Os números da disputa por talentos, o que prende gente boa e a constituiçêo que a Anthropic escreveu para o Claude.", "aulas": [1, 2, 3]},
+    {"titulo": "Módulo 2 · Gerenciar agentes como se gerencia gente", "resumo": "O mapa pessoas × agentes, a constituiçêo do seu agente e a regra de quando ele pede ajuda.", "aulas": [4, 5, 6]},
     {"titulo": "Módulo 3 · A empresa de sucesso em 2027", "resumo": "Ficha de nota, casos de teste, o ciclo que melhora o agente e o seu plano de 30 dias.", "aulas": [7, 8, 9]}
   ]
 }

@@ -6,7 +6,7 @@ Curso v6.2 "Empresas de 2027" (repo `linnoff88-dev/empresas-2027-v62`, GitHub Pa
 - `curso.html` é gerado: editar `aulas/aula-N.html` e rodar montar → auditar → testar-motor (ver README).
 - Fatos só de `context/fonte-texto-nei.md` e da lista de fatos de `context/curriculo.md`.
 - Vídeo do mesmo tema: repo `linnoff88-dev/empresas-2027` (explicavideos v2).
-- Bump de versão: semver do usuário (minor carrega o patch). Atualizar `VERSION`.
+- Bump de versêo: semver do usuário (minor carrega o patch). Atualizar `VERSION`.
 
 ## Self-learning
 
